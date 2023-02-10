@@ -29,7 +29,7 @@ public class ProviderController3 {
 		List<String> names=new ArrayList<>();
 		names.add("kamel");
 		names.add("ali");
-		names.add("med");
+		names.add("moudi");
 		names.add("lassaad");
 		model.addAttribute("names", names);
 		return "data.html";
