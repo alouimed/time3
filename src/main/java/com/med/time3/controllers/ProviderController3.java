@@ -27,10 +27,10 @@ public class ProviderController3 {
 		model.addAttribute("name", name);
 		 
 		List<String> names=new ArrayList<>();
-		names.add("kamel");
-		names.add("ali");
-		names.add("moudi");
-		names.add("lassaad");
+		names.add("kamel from controller");
+		names.add("ali from controller");
+		names.add("moudi from controller");
+		names.add("lassaad from controller");
 		model.addAttribute("names", names);
 		return "data.html";
 	}
