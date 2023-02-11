@@ -32,6 +32,12 @@ public class ProviderController3 {
 		names.add("moudi from controller");
 		names.add("lassaad from controller");
 		model.addAttribute("names", names);
+		
+		List<Stagiaire> stagiaires=new ArrayList<>();
+		stagiaires.add(new Stagiaire("kamel",25,"tunis",22514877));
+		stagiaires.add(new Stagiaire("ali",35,"tunis",52252255));
+		stagiaires.add(new Stagiaire("sami",45,"tunis",95595555));
+		stagiaires.add(new Stagiaire("moudi",28,"tunis",33545465));
 		return "data.html";
 	}
 	
